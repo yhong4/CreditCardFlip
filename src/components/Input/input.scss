@@ -1,0 +1,31 @@
+.panel-input-group {
+    margin-bottom: 20px;
+    
+}
+
+.panel-label {
+    width:100%;
+    font-size:14px;
+    color:#1a3b5d;
+    font-weight:500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.panel-input {
+    height:50px;
+    width:100%;
+    border-radius:6px;
+    border: 1px solid #ced6e0;
+    color:#1a3b5d;
+    font-family: "Source Sans Pro", sans-serif;
+
+    &:hover{
+        border: 1px solid #3d9cff;
+    }
+
+    &:focus{
+        border: 1px solid #3d9cff;
+        box-shadow: 0 1px 20px 10px rgba(0, 0, 0, 0.2);
+    }
+}
